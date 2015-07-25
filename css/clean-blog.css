@@ -25,16 +25,22 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-a {
-  color: #404040;
+a{color:#00a9c6; text-decoration:none;}
+a:hover{color:#666;}
+.btn,a,.btn:hover,a:hover {
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+outline: none !important;
 }
-a:hover,
-a:focus {
-  color: #0085a1;
-}
-a img:hover,
-a img:focus {
-  cursor: zoom-in;
+#works figcaption a {
+  border: 1px solid #fff;
+  margin-top: 1em;
+  display: inline-block;
+  color: #fff;
+  padding: 0 2em;
 }
 blockquote {
   color: #808080;
@@ -86,6 +92,8 @@ hr.small {
   }
 }
 @media only screen and (min-width: 1170px) {
+	figure.effect-oscar figcaption{padding: 12%;}
+	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -203,6 +211,9 @@ hr.small {
 }
 .intro-header .post-heading .meta a {
   color: white;
+}
+@media only screen and (min-width:900px) {
+	figure.effect-oscar figcaption {padding: 20%;}
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
