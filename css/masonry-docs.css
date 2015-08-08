@@ -250,11 +250,12 @@ two columns for large devices
  -webkit-column-width: 18em;
  -moz-column-gap: 1em;
  -webkit-column-gap:1em; 
-  
+  margin:2%;
 }
 
 .item {
  display: inline-block;
+ position:relative;
  padding:  .25rem;
  width:  100%; 
 }
@@ -262,6 +263,19 @@ two columns for large devices
 .well {
  position:relative;
  display: block;
+ padding-top:5px;
+}
+
+.time-tag {
+	top:0;
+	z-index:9;
+	right:0;
+	position:absolute;
+	border: 1px solid #f05f40;
+    border-radius: 300px;
+	padding:4px;
+	background-color:#f05f40;
+	color:#fff;
 }
 
 .grid {
