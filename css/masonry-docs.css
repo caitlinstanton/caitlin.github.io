@@ -260,6 +260,11 @@ two columns for large devices
  width:  100%; 
 }
 
+.post-title, .post-subtitle, .post-heading {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color:#fff;
+}
+
 .well {
  position:relative;
  display: block;

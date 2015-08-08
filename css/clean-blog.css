@@ -34,6 +34,7 @@ a:hover{color:#666;}
 -o-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
 outline: none !important;
+text-decoration:none;
 }
 #works figcaption a {
   border: 1px solid #fff;
@@ -223,41 +224,45 @@ hr.small {
     font-size: 30px;
   }
 }
-.post-preview > a {
+.item > a {
   color: #404040;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
+.item > a:hover,
+.item > a:focus {
   text-decoration: none;
   color: #0085a1;
 }
-.post-preview > a > .post-title {
+.item > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.post-preview > a > .post-subtitle {
+.item > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
 }
-.post-preview > .post-meta {
+.post-title, .post-subtitle, .post-heading {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color:#fff;
+}
+.item > .post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
-.post-preview > .post-meta > a {
+.item > .post-meta > a {
   text-decoration: none;
   color: #404040;
 }
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
+.item > .post-meta > a:hover,
+.item > .post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
+  .item > a > .post-title {
     font-size: 36px;
   }
 }
