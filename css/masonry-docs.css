@@ -256,19 +256,15 @@ two columns for large devices
 .item {
  display: inline-block;
  position:relative;
- padding:  .25rem;
- width:  100%; 
-}
-
-.post-title, .post-subtitle, .post-heading {
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	color:#fff;
+ padding:  .25rem; 
+ border: 1px solid #dcdcdc;
+ border-radius:10px;
+ margin:2%;
 }
 
 .well {
- position:relative;
- display: block;
- padding-top:5px;
+	position:relative;
+	display: block;
 }
 
 .time-tag {
@@ -276,15 +272,41 @@ two columns for large devices
 	z-index:9;
 	right:0;
 	position:absolute;
-	border: 1px solid #f05f40;
+	border: 1px solid #fff;
     border-radius: 300px;
 	padding:4px;
 	background-color:#f05f40;
 	color:#fff;
 }
 
+.img-container {
+	position:relative;
+	border:none;
+}
+
+.img-container img {
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.info {
+	width:100%;
+	height:auto;
+	text-align:left;
+	font-size:125%;
+	display: block;
+	margin:0 auto;
+}
+
+.info a {
+	display: block;
+	margin: 2px 0 0 0;
+	line-height: 20px;
+	font-weight: bold;
+}
+
 .grid {
-  background: white;
   border-radius: 5px;
   width:100%;
   margin:0 auto;
