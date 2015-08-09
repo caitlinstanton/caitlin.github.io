@@ -254,12 +254,12 @@ two columns for large devices
 }
 
 .item {
- display: inline-block;
- position:relative;
- padding:  .25rem; 
- border: 1px solid #dcdcdc;
- border-radius:10px;
- margin:2%;
+	display: inline-block;
+	position:relative;
+	padding:  .25rem; 
+	/* border: 1px solid #dcdcdc;
+	border-radius:10px; */
+	margin:2%;
 }
 
 .well {
@@ -297,6 +297,10 @@ two columns for large devices
 	font-size:125%;
 	display: block;
 	margin:0 auto;
+	background-color:#dcdcdc;
+	overflow:hidden;
+	padding-left:10px;
+	padding-bottom:10px;
 }
 
 .info a {
