@@ -288,6 +288,7 @@ two columns for large devices
 	display:block;
 	width:100%;
 	height:auto;
+	border:1px solid #fff;
 }
 
 .info {
@@ -301,6 +302,7 @@ two columns for large devices
 	overflow:hidden;
 	padding-left:10px;
 	padding-bottom:10px;
+	border:1px solid #fff;
 }
 
 .info a {
